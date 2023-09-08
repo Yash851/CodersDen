@@ -4,8 +4,8 @@ const db = knex({
     connection:{
         host:'localhost',
         user:'root',
-        password:'Purposedatabase',
-        database:'codersden'
+        password:'Enter database password here',
+        database:'Enter database name here'
     }
 })
 export default db;
